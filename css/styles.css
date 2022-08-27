@@ -1,0 +1,243 @@
+:root{
+    /* backgruond */
+  --backgruond:#2F303A;
+/* text */
+    --title: #212121;
+    --text:#757575;
+    --text-button: #FFFFFF;
+    --blue: #2196F3;
+    --footer: rgba(255, 255, 255, 0.6);
+    /*Font*/
+    --main-header :Roboto, sans-sarif;
+    --secondary-header: Releway, sans-sarif;
+    --main-logo :Raleway, sans-saris;
+}
+
+.page{
+position: relative;
+    width: 1600px;
+    height: 2346px;
+    color: #212121;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: var(--main-header);
+}
+
+
+.list{
+    list-style: none;
+}
+.logo.link,
+.logo-header{
+font-family: var(--main-logo);
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;    
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.header{
+font-family:var(--main-header);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;    
+color: #212121;
+}
+
+a:hover, a:focus {
+    color:var(--blue)
+}
+
+a {
+color:var(--backgruond)
+}
+.logo.link {
+    color:var(--blue)
+}
+
+.logo-header{
+    color: #000000;
+}
+
+.link,
+.logo.link,
+.link.https1,
+.link.https2 {
+ text-decoration: none;
+}
+
+.nave :hover,
+.nave :focus {
+color: #2196F3 ;
+}
+
+.logo.link :hover,
+.logo.link :focus,
+.logo-header :hover,
+.logo-header :focus{
+    color: #2196F3;
+}
+
+
+.sectiongeneral{
+    background-color: var(--backgruond)
+}
+.section1 {
+font-family: var(--main-header);
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.button{
+font-family:var(--main-header);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+cursor: pointer;
+}
+
+.favor {
+position: absolute;
+width: 1px;
+height: 1px;
+ margin: -1px;
+ border: 0;
+ padding: 0;
+white-space: nowrap;
+ clip-path: inset(100%);
+ clip: rect(0 0 0 0);
+overflow: hidden;
+}
+.favor1 {
+font-family: var(--main-header);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.text1 {
+font-family: var(--main-header);
+font-size: 14px;
+line-height: 24px;   
+letter-spacing: 0.03em;    
+color: #757575;
+}
+
+.optins {
+font-family: var(--main-header);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.eqipue{
+font-family: var(--main-header);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.favor2{
+    font-family: var(--main-logo);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.position{
+    font-family: var(--main-header);
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.footer{
+    background-color:#2F303A;
+}
+ 
+.logo.header{
+    color: #FFFFFF
+}
+
+
+.logo-link,
+.logo2header {
+    font-family: var(--main-logo);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo-link {
+    text-decoration: none;
+}
+.logo-link {
+    color: #2196F3;
+}
+
+.logo2header {
+    color: #FFFFFF
+}
+
+.logo-link :hover,
+.logo-link :focus,
+.logo2header :hover,
+.logo2header :focus {
+    color: #2196F3;
+}
+
+.adress{
+font-family: var(--main-header);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.link.https2 {
+font-family: var(--main-header);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:var(--footer)
+}
